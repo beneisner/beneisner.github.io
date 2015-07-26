@@ -1,153 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Benjamin Eisner</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/skeleton/normalize.css">
-  <link rel="stylesheet" href="css/skeleton/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/B-icon.png">
-
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-  <link rel="stylesheet" href="css/github-prettify-theme.css">
-  <script src="js/site.js"></script>
-
-</head>
-<body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="section hero" style="background:black">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h1 class="hero-name">Ben Eisner.</h1>
-          <h2 class="hero-sub">// Developer<br>// Designer</h2>
-          <!---<p class="hero-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lorem nec orci molestie posuere nec ac arcu. Nam id pulvinar nulla, a ullamcorper nunc. Praesent et arcu condimentum, lobortis nisi eget, semper sem. Etiam elementum est non lectus tincidunt aliquet. Donec suscipit, libero quis venenatis pharetra, ipsum sem viverra arcu, vel imperdiet arcu dolor quis felis. Nunc posuere dictum nibh, at gravida lectus ultrices commodo. </p>
-          -->
-          <!-- <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a> -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Eisner | beisner</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <nav class="main-nav" role="navigation">
+        <a class="nav-link" href="."><i class="fa fa-home fa-2x"></i></a>
+        <a class="nav-link" href="blog"><i class="fa fa-comments fa-2x"></i></a>
+        <a class="nav-link" href="resume"><i class="fa fa-file-text fa-2x"></i></a>
+        <a class="nav-link" href="projects"><i class="fa fa-cubes fa-2x"></i></a>
+      </nav>
+      <section class="main-content" role="main">
+        <div class="card">
+          <div class="card-image">
+            <div class="card-top">
+              <div class="circular"></div>
+            </div>
+            <div class="card-bottom">
+              <h1>Ben Eisner</h1>
+              <h2>Software Developer</h2>
+              <h3>ben [dot] a [dot] eisner [at] gmail [dot] com</h3>
+            </div>
+          </div>
+          <div class="card-text">
+            <div class="text-box">
+              Hi! My name is Ben Eisner, and I'm a software developer and Junior at Princeton University.
+              <div id="navcontainer">
+                <ul>
+                  <li><a href="./blog.html">Blog</a></li>
+                  <li><a href="./resume.html">Resume</a></li>
+                  <li><a href="./projects.html">Projects</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--<div class="link-box">-->
+              
+              <!--<h3>ben [dot] a [dot] eisner [at] gmail [dot] com</h3>-->
+            <!--</div>-->
+          </div>
         </div>
-        <div class="one-half column phones">
-        	<img class="headshot" name ="headshot" src="images/Down-Head.png">
-        </div>
-      </div>
+      </section>
     </div>
-  </div>
-
-  <!-- navbar -->
-  <div class="navbar-spacer"></div>
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#intro">Blog</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#projects">Projects</a>
-            
-          </li>
-          <li class="navbar-item"><a class="navbar-link" href="docs/Ben_Eisner_Resume.pdf">Resume</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="https://github.com/beneisner">Github</a></li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#moreNavPopover">Contact</a>
-            <div id="moreNavPopover" class="popover">
-              <ul class="popover-list">
-                <li class="popover-item">
-                  <a class="popover-link" href="http://linkedin.com/pub/benjamin-eisner/87/678/281">LinkedIn</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://twitter.com/BenAEisner">Twitter</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://www.facebook.com/ben.a.eisner">Facebook</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- About -->
-
-  <div class="section about" id="about">
-  	<div class="container">
-      <div class="row">
-        <div class="two-thirds column value">
-			<h1 class="info-heading">About</h1>
-			<p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lorem nec orci molestie posuere nec ac arcu. Nam id pulvinar nulla, a ullamcorper nunc. Praesent et arcu condimentum, lobortis nisi eget, semper sem. Etiam elementum est non lectus tincidunt aliquet. Donec suscipit, libero quis venenatis pharetra, ipsum sem viverra arcu, vel imperdiet arcu dolor quis felis. Nunc posuere dictum nibh, at gravida lectus ultrices commodo.</p>
-		</div>
-		<div class="one-third column value">
-        	<img src="images/Straight-Head.png" style="max-width:100%;">
-        </div>
-  	</div>
-  </div>
-  </div>
-  <!-- projects -->
-  <div class="section projects" id="projects">
-    <div class="container">
-      <h1 class="info-heading">Projects</h1>
-      <div class="row">
-        <div class="one-third column value">
-        	<div class="project-box">
-              <a class="button button-project" href="http://www.hackprinceton.com">
-              	<img class="project-image" src="images/hackprinceton.png">
-              	<h2 class="project-heading">HackPrinceton</h2>
-              </a>
-            </div>
-        </div>
-        <div class="one-third column value">
-        	<div class="project-box">
-              <a class="button button-project" href="#">
-              	<img class="project-image" src="images/Princeton-Logo.png">
-              	<h2 class="project-heading">COS 333 Project</h2>
-              </a>
-            </div>
-        </div>
-        <div class="one-third column value">
-        	<div class="project-box">
-              <a class="button button-project" href="https://github.com/beneisner/beneisner.github.io">
-              	<img class="project-image" src="images/B-icon.png">
-              	<h2 class="project-heading">beisner.me</h2>
-              </a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="footer">
-      <div class="contact">
-       
-       © 2015 Ben Eisner -
-        <a href="http://github.com/beneisner">Github</a> -
-        <a href="http://linkedin.com/pub/benjamin-eisner/87/678/281">LinkedIn</a> -
-        <a href="mailto:beisner@princeton.edu">Email</a>
-      </div>
-    </div>
-
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+  </body>
 </html>
