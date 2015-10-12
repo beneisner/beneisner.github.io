@@ -4,45 +4,65 @@ html, body {
   padding: 0px;
   min-height: 100%;
   height: 100%;
-  background-color: #D0D0D0;
-  font-family: 'Open Sans', arial;
+  background-image: url(../images/grey_tiles.jpg);
+  font-family: 'Roboto', arial;
   
 }
 
 h1 {
-  
-  font-family: 'Open Sans', arial;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3.5em;
   margin: 0;
   margin-top: 20px;
-  padding: 0;
+
 }
 
 h2 {
-  font-family: 'Open Sans', arial;
   font-weight: 400;
-  font-size: 1.5em;
-  color: darkgrey;
-  margin: 0;
-  padding: 0;
+  font-size: 2em;
+  color: #7c7c7c;
+  margin: 10px;
 }
 
 h3 {
-  font-family: 'Open Sans', arial;
+
   font-weight: 300;
-  font-size: .75em;
+  font-size: 1em;
   margin: 0;
   padding: 0;
 }
 
+.hi {
+  text-align: left;
+  margin-left: 0;
+  font-size: 3.5em;
+  color: #D6DAFF;
+}
+
+p {
+  color:#D6DAFF;
+  font-weight: 300;
+}
+
+a {
+  color:#D6DAFF;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
 .text-box {
-  
+  text-align: left;
   position: absolute;
-  width: 90%;
-  top: 30%;
+  width: 70%;
+  top: 20%;
   height: 100px;
-  padding: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 
@@ -76,6 +96,9 @@ h3 {
   width: 100%;
   height: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   
   /* flex compatibility */
   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -100,19 +123,16 @@ h3 {
 }
 
 .card {
+  /*
   position: absolute;
   top: 2em;
-  bottom: 2em;
   left: 2em;
   right: 2em;
-  background-color: white;
-  box-shadow: 10px 10px 5px #888888;
+  */
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
   
-  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;      /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;   /* TWEENER - IE 10 */
-  display: -webkit-flex;  /* NEW - Chrome */
-  display: flex;          /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
 .link-box {
@@ -154,65 +174,96 @@ background-color: #369;
   text-align: center;
 }
 
-.card-image {
+.card-left {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  /*background-image: url('../images/beach-reg.jpg'); */
-  
-  width: 50%;
-  height: 100%;
+  width: 100px;
   /* flex compatibility */
   -webkit-box-ordinal-group: 1;  
   -moz-box-ordinal-group: 1;     
   -ms-flex-order: 1;     
   -webkit-order: 1;  
   order: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #2A2E4E ;
+  z-index: 0;
+}
+
+.card-image {
+  z-index: 1;
+  float: left;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /*background-image: url('../images/beach-reg.jpg'); */
+  
+  width: 475px; /* 1.27 */
+  min-width: 475px;
+  height: 637px;
+  /* flex compatibility */
+  -webkit-box-ordinal-group: 2;  
+  -moz-box-ordinal-group: 2;     
+  -ms-flex-order: 2;     
+  -webkit-order: 2;  
+  order: 2;
+  
+  box-shadow: 0px 0px 40px #000000;
+  
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;      /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;   /* TWEENER - IE 10 */
+  display: -webkit-flex;  /* NEW - Chrome */
+  display: flex;          /* NEW, Spec - Opera 12.1, Firefox 20+ */
   
 }
 
 .card-top {
   position: relative;
-  height: 70%;
+  height: 50%;
   width: 100%;
-  background-color: #00CCFF;
+  background-color: #a485b6;
 }
 
 .card-bottom {
+  padding-top: 14%;
   text-align: center;
   position: relative;
-  height: 30%;
+  height: 40%;
   width: 100%;
   background-color: white;
 }
 
 
 .card-text {
-  width: 50%;
+  z-index: 0;
+  width: 100%;
   /* flex compatibility */
-  -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
-  -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
-  -ms-flex-order: 2;              /* TWEENER - IE 10 */
-  -webkit-order: 2;               /* NEW - Chrome */
-  order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: flex;
+  -webkit-box-ordinal-group: 3;   /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-ordinal-group: 3;      /* OLD - Firefox 19- */
+  -ms-flex-order: 3;              /* TWEENER - IE 10 */
+  -webkit-order: 3;               /* NEW - Chrome */
+  order: 3;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
   
-  text-align: center;
   position: relative;
-  background-color: #FF6666 ;
+  background-color: #2A2E4E ;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .circular {
+  z-index: 1;
   position: absolute;
   top: 50%;
-  margin-top: -150px;
+  margin-top: -65px;
   left: 50%;
-  margin-left: -150px;
-  height: 300px;
-  width: 300px;
+  margin-left: -145px;
+  height: 285px;
+  width: 285px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  background: url(../images/justin-reiter-headshot.jpg) no-repeat;
+  background: url(../images/Lobster_Cropped.jpg) no-repeat;
   /*
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
