@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ben Eisner | beisner</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-      <div class="card"> 
-        <div class="card-left">
-        </div>
-        <div class="card-image">
-          <div class="card-top">
-            <div class="headshot"></div>
-          </div>
-          <div class="card-bottom">
-            <h1>Ben Eisner</h1>
-            <h2>Software Developer</h2>
-            <!-- <h3>ben.a.eisner [at] gmail.com</h3> -->
-          </div>
-        </div>
-        <div class="card-text">
-          <div class="text-box">
-            <h2 class="hi">Hi!</h2>
-            <p>My name is Ben Eisner, and I'm a software developer and Junior studying Computer Science at Princeton University. I'm interested in Applied Artifical Intelligence Research, Robotics, and Space Flight. On campus, I am the Director of the Careers Team in the <a href="http://www.princetoneclub.com/">Princeton Entrepreneurship Club</a>, play Ultimate Frisbee, and perform with the <a href="https://www.facebook.com/LobsterClub">Lobster Club Improv Comedy</a> group.
-            </p>
-            <p>I have experience in frontend and backend development - here's my <a href="./docs/Ben_Eisner_Resume.pdf">resume</a>, and here are my <a href="https://github.com/beneisner">GitHub profile</a> and my <a href="https://www.linkedin.com/in/beneisner">LinkedIn profile</a>.</p>
-            <p>You can reach me at ben.a.eisner [at] gmail.com</p>
-         </div>
-        </div>
-      </div>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
