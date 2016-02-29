@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+### Hi!
+My name is Ben Eisner, and I'm a software developer and Junior studying Computer Science at Princeton University. I'm interested in Applied Artifical Intelligence Research, Robotics, and Space Flight. On campus, I am the Director of the Careers Team in the [Princeton Entrepreneurship Club](http://www.princetoneclub.com), play [Ultimate Frisbee](http://www.princeton.edu/~clockwrk/), and perform with the Lobster Club Improv Comedy group.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I have experience in frontend and backend development - here's my [resume](../{{site.resume_path}}), and here are my Github profile: {% include icon-github.html username="beneisner" %} and my [LinkedIn profile](http://www.linkedin.com/in/{{site.linkedin_username}}).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+You can reach me at [{{site.email}}](mailto:{{site.email}}).
