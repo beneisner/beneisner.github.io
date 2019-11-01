@@ -21,13 +21,13 @@ Riley Simmons-Edler, **Ben Eisner**, Eric Mitchell, Sebastian Seung, Daniel Lee
 [arxiv](https://arxiv.org/abs/1906.08189)
 
 **Pixels to Plans: Learning Non-Prehensile Manipulation by Imitating a Planner**  
-Tarik Tosun*, Eric Mitchell*, **Ben Eisner**, Jinwook Huh, Bhoram Lee, Daewon Lee, Volkan Isler, Sebastian Seung, Daniel Lee  
+Tarik Tosun\*, Eric Mitchell\*, **Ben Eisner**, Jinwook Huh, Bhoram Lee, Daewon Lee, Volkan Isler, Sebastian Seung, Daniel Lee  
 *IROS 2019*  
 [arxiv](https://arxiv.org/abs/1904.03260)
 
 
 **Q-Learning for Continuous Actions with Cross-Entropy Guided Policies**  
-Riley Simmons-Edler, **Ben Eisner**, Eric Mitchell, Sebastian Seung, Daniel Lee  
+Riley Simmons-Edler\*, **Ben Eisner\***, Eric Mitchell, Sebastian Seung, Daniel Lee  
 *ICML 2019 Workshop on RL4RealLife*  
 [arxiv](https://arxiv.org/abs/1903.10605)
 
