@@ -20,7 +20,8 @@ url: "http://beisner.me" # the base hostname & protocol for your site
 twitter_username: benaeisner
 github_username:  beneisner
 linkedin_username: beneisner
-resume_path: files/Ben_Eisner_Resume_11_1_19.pdf
+resume_path: files/ben_eisner_resume_11_1_19.pdf
+thesis_path: files/ben_eisner_ugrad_thesis_2019.pdf
 
 # Build settings
 markdown: kramdown
