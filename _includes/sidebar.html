@@ -5,13 +5,16 @@
 
       <nav class="nav">
           <ul class="nav-list">
-            {% for my_page in site.pages %}
-              {% if my_page.title != "Posts" %}
+            <li class="nav-item">
+              <a class="pure-button" href="http://beisner.me/">Home</a>
+            </li>
+            <!-- {% for my_page in site.pages %}
+              {% if my_page.title %}
                 <li class="nav-item">
                   <a class="pure-button" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
                 </li>
                 {% endif %}
-            {% endfor %}
+            {% endfor %} -->
           </ul>
       </nav>
   </div>
