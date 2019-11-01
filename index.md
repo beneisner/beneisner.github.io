@@ -17,6 +17,7 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 **QXplore: Q-learning Exploration by Maximizing Temporal Difference Error**  
 Riley Simmons-Edler, **Ben Eisner**, Eric Mitchell, Sebastian Seung, Daniel Lee  
+*NeurIPS 2019 Workshop on Deep RL*  
 [arxiv](https://arxiv.org/abs/1906.08189)
 
 **Pixels to Plans: Learning Non-Prehensile Manipulation by Imitating a Planner**  
