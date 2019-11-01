@@ -34,7 +34,7 @@ Riley Simmons-Edler\*, **Ben Eisner\***, Eric Mitchell, Sebastian Seung, Daniel 
 ## 2017
 
 **Deep Learning Methods for 3D Segmentation of Neural Tissue in EM Images**  
-Ben Eisner  
+**Ben Eisner**  
 *Princeton University Senior Thesis*  
 [thesis]({{site.thesis_path}}) | [project](https://github.com/tartavull/trace)
 
