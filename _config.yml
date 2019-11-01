@@ -8,19 +8,19 @@
 # Site settings
 title: Ben Eisner | beisner
 name: Ben Eisner
-job_title: Software Engineer and Research Enthusiast
+job_title: Machine Learning Researcher and Software Engineer
 email: ben.a.eisner@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a software engineer and research enthusiast with experience 
-  building web servers, desktop applications, and embedded systems.
-  I am interested in machine learning research and applications of AI
-  in robotics, and always looking for new projects.
+  I'm a Machine Learning Researcher and Software Engineer focusing on
+  robotic systems that learn to interact with the unstructured world.
+  I have a strong bacground in machine learning research and engineering,
+  and have helped build systems that are used by hundreds of millions of people around the world.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://beisner.me" # the base hostname & protocol for your site
 twitter_username: benaeisner
 github_username:  beneisner
 linkedin_username: beneisner
-resume_path: files/Ben_Eisner_Resume_11_2_16.pdf
+resume_path: files/Ben_Eisner_Resume_11_1_19.pdf
 
 # Build settings
 markdown: kramdown
