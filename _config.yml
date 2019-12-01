@@ -22,6 +22,7 @@ github_username:  beneisner
 linkedin_username: beneisner
 resume_path: files/ben_eisner_resume_11_1_19.pdf
 thesis_path: files/ben_eisner_ugrad_thesis_2017.pdf
+cv_path: files/ben_eisner_cv_12_1_19.pdf
 
 # Build settings
 markdown: kramdown
