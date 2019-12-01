@@ -7,7 +7,11 @@ permalink: /
 # About Me!
 My name is Ben Eisner, and I'm a Machine Learning Researcher and Software Engineer focusing on robotic systems that learn to interact with the unstructured world. I have a strong background in machine learning research and engineering, and have helped build systems that are used by hundreds of millions of people around the world.
 
-Here's a recent version of my [resume]({{site.resume_path}}).
+Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}).
+
+[Google Scholar](https://scholar.google.com/citations?user=RWe-v0UAAAAJ&hl=en)
+
+[Github](https://github.com/beneisner)
 
 You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
