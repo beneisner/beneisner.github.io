@@ -17,6 +17,13 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # Publications:
 
+## 2020
+
+** Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**
+Tarik Tosun, Daniel Yang, **Ben Eisner**, Volkan Isler, Daniel Lee
+*Under review for IROS 2020*
+[arxiv](https://arxiv.org/abs/2003.01649)
+
 ## 2019
 
 **QXplore: Q-learning Exploration by Maximizing Temporal Difference Error**  
@@ -29,7 +36,6 @@ Tarik Tosun\*, Eric Mitchell\*, **Ben Eisner**, Jinwook Huh, Bhoram Lee, Daewon 
 *IROS 2019*  
 [arxiv](https://arxiv.org/abs/1904.03260)
 
-
 **Q-Learning for Continuous Actions with Cross-Entropy Guided Policies**  
 Riley Simmons-Edler\*, **Ben Eisner\***, Eric Mitchell, Sebastian Seung, Daniel Lee  
 *ICML 2019 Workshop on RL4RealLife*  
@@ -41,7 +47,6 @@ Riley Simmons-Edler\*, **Ben Eisner\***, Eric Mitchell, Sebastian Seung, Daniel 
 **Ben Eisner**  
 *Princeton University Senior Thesis*  
 [thesis]({{site.thesis_path}}) | [project](https://github.com/tartavull/trace)
-
 
 ## 2016
 **emoji2vec: Learning emoji representations from their description**  
