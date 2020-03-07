@@ -19,7 +19,7 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 ## 2020
 
-** Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**  
+**Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**  
 Tarik Tosun, Daniel Yang, **Ben Eisner**, Volkan Isler, Daniel Lee  
 *Under Review for IROS 2020*  
 [arxiv](https://arxiv.org/abs/2003.01649)
