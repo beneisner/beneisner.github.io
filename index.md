@@ -7,6 +7,8 @@ permalink: /
 # About Me!
 My name is Ben Eisner, and I'm a Machine Learning Researcher and Software Engineer focusing on robotic systems that learn to interact with the unstructured world. I have a strong background in machine learning research and engineering, and have helped build systems that are used by hundreds of millions of people around the world.
 
+Starting Fall 2020, I will be pursuing a Ph.D. in Robotics at Carnegie Mellon University in the Robotics Institute. I am also honored to be the recipient of the 2020 [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/), which will support my my studies over the course of my Ph.D.
+
 Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}).
 
 [Google Scholar](https://scholar.google.com/citations?user=RWe-v0UAAAAJ&hl=en)
