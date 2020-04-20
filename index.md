@@ -38,8 +38,8 @@ Tarik Tosun, Daniel Yang, **Ben Eisner**, Volkan Isler, Daniel Lee
 
 **Reward Prediction Error as an Exploration Objective in Deep RL**  
 Riley Simmons-Edler, **Ben Eisner**, Daniel Yang, Anthony Bisulco, Eric Mitchell, Sebastian Seung, Daniel Lee  
-*IJCAI 2020*
-*Earlier draft presented at NeurIPS 2020 Workshop on Deep RL*
+*IJCAI 2020*  
+*Earlier draft presented at NeurIPS 2020 Workshop on Deep RL*  
 [arxiv](https://arxiv.org/abs/1906.08189)
 
 ## 2019
