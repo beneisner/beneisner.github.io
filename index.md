@@ -21,7 +21,7 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 * 4/20/20: Our [paper](https://arxiv.org/abs/1906.08189) using TD-error as an exploration signal was accepted for publication at IJCAI 2020!
 
-* 4/15/20: I officially accepted a position in the Ph.D. in Robotics at Carnegie Mellon University Robotics Institute! I will be matriculate in Fall 2020.
+* 4/15/20: I officially accepted a position in the Ph.D. Program in Robotics at the Carnegie Mellon University Robotics Institute! I will matriculate in Fall 2020.
 
 * 3/30/20: I was selected to receive the NSF Graduate Research Fellowship for the fellowship class of 2020!
 
