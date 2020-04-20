@@ -17,6 +17,16 @@ Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv](
 
 You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
+# ~~~ Latest News ~~~
+
+* 4/20/20: Our [paper](https://arxiv.org/abs/1906.08189) using TD-error as an exploration signal was accepted for publication at IJCAI 2020!
+
+* 4/15/20: I officially accepted a position in the Ph.D. in Robotics at Carnegie Mellon University Robotics Institute! I will be matriculate in Fall 2020.
+
+* 3/30/20: I was selected to receive the NSF Graduate Research Fellowship for the fellowship class of 2020!
+
+* 3/1/20: We submitted a [paper](https://arxiv.org/abs/2003.01649) on learning to grasp objects from grasp proposal and image reconstruction to IROS 2020.
+
 # Publications:
 
 ## 2020
@@ -26,12 +36,13 @@ Tarik Tosun, Daniel Yang, **Ben Eisner**, Volkan Isler, Daniel Lee
 *Under Review for IROS 2020*  
 [arxiv](https://arxiv.org/abs/2003.01649)
 
-## 2019
-
-**QXplore: Q-learning Exploration by Maximizing Temporal Difference Error**  
-Riley Simmons-Edler, **Ben Eisner**, Eric Mitchell, Sebastian Seung, Daniel Lee  
-*NeurIPS 2019 Workshop on Deep RL*  
+**Reward Prediction Error as an Exploration Objective in Deep RL**  
+Riley Simmons-Edler, **Ben Eisner**, Daniel Yang, Anthony Bisulco, Eric Mitchell, Sebastian Seung, Daniel Lee  
+*IJCAI 2020*
+*Earlier draft presented at NeurIPS 2020 Workshop on Deep RL*
 [arxiv](https://arxiv.org/abs/1906.08189)
+
+## 2019
 
 **Pixels to Plans: Learning Non-Prehensile Manipulation by Imitating a Planner**  
 Tarik Tosun\*, Eric Mitchell\*, **Ben Eisner**, Jinwook Huh, Bhoram Lee, Daewon Lee, Volkan Isler, Sebastian Seung, Daniel Lee  
