@@ -1,19 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+<!-- Elements borrowed heavily from https://github.com/pure-css/pure/tree/master/site/static/layouts/blog -->
 
-  <body>
-    <div id="layout" class="pure-g">
-      <div class="sidebar-wrapper pure-u-1 pure-u-md-1-4">
-        {% include sidebar.html %}
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <div class="content-wrapper pure-u-1 pure-u-md-3-4">
-          {{ content }}
-          {% include footer.html %}
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Pure.css dependencies.
+    For some reason, both have to be included, even though the first one should 
+    contain everything necessary... But for some reason it just doesn't work (and the header isn't responsive). -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+
+  <!-- Local dependencies. -->
+  <link rel="stylesheet" href="{{ " /css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend:
+    site.baseurl | prepend: site.url }}">
+</head>
+
+<div id="layout" class="pure-g">
+  <!-- The sidebar/header. On desktop it's on the left, on mobile it's on the top. -->
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+      <h1 class="sidebar-title">{{ site.name }}</h1>
+      <h2 class="sidebar-tagline">{{ site.job_title }}</h2>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="pure-button" href="https://www.beisner.me/">Home</a>
+            <a class="pure-button" href="{{ site.cv_path }}">CV</a>
+          </li>
+
+          <!-- Add another nav item here for blog posts. -->
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      {{ content }}
+
+      <hr>
+
+      <div class="footer">
+        <div class=pure-g">
+          <div class="pure-u-1 pure-u-lg-1-5">
+            <ul class="pure-menu-list">
+              <li>{{ site.title }}</li>
+              <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-lg-1-5">
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item">{% include icon-github.html username=site.github_username %}</li>
+              <li class="pure-menu-item">{% include icon-twitter.html username=site.twitter_username %}</li>
+              <li class="pure-menu-item">{% include icon-scholar.html username=site.scholar_title %}</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-lg-14-24 footer-description">
+            {{ site.description }}
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+
   </body>
 
 </html>

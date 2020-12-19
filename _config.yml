@@ -8,19 +8,18 @@
 # Site settings
 title: Ben Eisner | beisner
 name: Ben Eisner
-job_title: Machine Learning Researcher and Software Engineer
+job_title: ML + Robotics Researcher
 email: ben.a.eisner@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a Machine Learning Researcher and Software Engineer focusing on
-  robotic systems that learn to interact with the unstructured world.
-  I have a strong background in machine learning research and engineering,
-  and have helped build systems that are used by hundreds of millions of people around the world.
+  ML + Robotics Researcher <br>
+  Ph.D. Student in Robotics @ CMU <br>
+  Ex-Google, Ex-Samsung, Ex-Microsoft.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://beisner.me" # the base hostname & protocol for your site
 twitter_username: benaeisner
-github_username:  beneisner
+github_username: beneisner
 linkedin_username: beneisner
-resume_path: files/ben_eisner_resume_11_1_19.pdf
+scholar_title: Google Scholar
 thesis_path: files/ben_eisner_ugrad_thesis_2017.pdf
 cv_path: files/ben_eisner_cv_2020_12_17.pdf
 nsf_personal_path: files/nsf_grfp_personal_statement_2019.pdf
