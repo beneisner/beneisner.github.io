@@ -18,11 +18,11 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
-- 10/31/20: We submitted a [paper](https://arxiv.org/abs/2003.01649">) on learning to grasp objects from grasp proposal and image reconstruction to ICRA 2021!
+- 02/28/21: Our [paper](https://arxiv.org/abs/2003.01649) on learning to grasp objects from grasp proposal was accepted to ICRA 2021!
 
 - 8/31/20: I started my Ph.D. program in Robotics at Carnegie Mellon University!
 
-- 4/20/20: Our [paper](https://arxiv.org/abs/1906.08189">) using TD-error as an exploration signal was accepted for publication at IJCAI 2020!
+- 4/20/20: Our [paper](https://arxiv.org/abs/1906.08189) using TD-error as an exploration signal was accepted for publication at IJCAI 2020!
 
 - 3/30/20: I was selected to receive the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) for the fellowship class of 2020!
 
@@ -47,8 +47,8 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 ## 2020
 
 **Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**  
-Tarik Tosun, Daniel Yang, **Ben Eisner**, Volkan Isler, Daniel Lee  
-_Under Review for ICRA 2021_  
+Daniel Yang, Tarik Tosun, **Ben Eisner**, Volkan Isler, Daniel Lee  
+_ICRA 2021_  
 [arxiv](https://arxiv.org/abs/2003.01649)
 
 **Reward Prediction Error as an Exploration Objective in Deep RL**  
