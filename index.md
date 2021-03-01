@@ -44,12 +44,14 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # Publications:
 
-## 2020
+## 2021
 
 **Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**  
 Daniel Yang, Tarik Tosun, **Ben Eisner**, Volkan Isler, Daniel Lee  
 _ICRA 2021_  
 [arxiv](https://arxiv.org/abs/2003.01649)
+
+## 2020
 
 **Reward Prediction Error as an Exploration Objective in Deep RL**  
 Riley Simmons-Edler, **Ben Eisner**, Daniel Yang, Anthony Bisulco, Eric Mitchell, Sebastian Seung, Daniel Lee  
