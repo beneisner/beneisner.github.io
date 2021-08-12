@@ -13,13 +13,15 @@ permalink: /flow
     }
     .given {
         font-size: 0.7em;
-        line-height: .1em;
+        line-height: .4em;
     }
 </style>
 
 # Policy Transfer by Imagining Flow <!-- .element: class="r-fit-text" -->
 
 #### Ben Eisner
+
+<p style="font-size: .7em;"><a href=https://beisner.me/flow>https://beisner.me/flow</a></p>
 
 
 -----
@@ -85,7 +87,7 @@ How does this object work? <!-- .element: class="fragment" data-fragment-index="
             With <mark>imagined flow</mark> flow alone, 
         </p>
         <p class="fragment" data-fragment-index="3">
-            we can derive a reasonably good manipulation policy
+            we can derive a reasonably good manipulation policy.
         </p>
     </div>
     <!-- <p class="fragment" data-fragment-index="2">With this imagined flow alone,</p> -->
@@ -128,31 +130,54 @@ Relaxation 1: No need for object model or segmentation.
 
 Relaxation 2: No need to understand the task completely - we can use a motion demonstration from another object!
 
+<img src="presentations/2021_08_13-flow/lighter_pc_flow_transfer.svg" class="fragment" height=300>
+
+<div class="fragment">
+In other words, <mark>observe flow on a source object</mark> during a demonstration, and try and <u>transfer that characteristic flow</u> to another object. 
+</div>
 ---
 
+## <u>Problem Statement</u>
 
-
-### <u>Given</u> <!-- .element: class="fragment" -->
+### Given <!-- .element: class="fragment" -->
 
 <div class="container">
     <div class="col given fragment">
-        Source Object `$A$`:
-        * a source point cloud `$P_A$`
-        * a ground-truth flow `$F_A$`
+        <u>Source Object $A$:</u>
+        <ul>
+            <li>a source point cloud $P_A$</li>
+            <li>a ground-truth flow $F_A$</li>
+        </ul>
     </div>
     <div class="col given fragment">
-        Destination object `$B$`:
-        * a destination point cloud `$P_B$`
+        <u>Destination object $B$:</u>
+        <ul>
+            <li>a destination point cloud $P_B$</li>
+        </ul>
     </div>
 </div>
 
+<br>
 
-### <u>Task</u> <!-- .element: class="fragment" -->
+### Task <!-- .element: class="fragment" -->
 
 <div class="fragment">
 <mark>Transfer</mark> flow $F_A$ to object $B$ to produce flow $F_B$
 so that the object deforms in a <u>characteristically similar way</u>.
 </div>
+
+---
+
+In other words, we want to learn a function
+
+`$$\tilde{F_B} = f_{\theta}(P_A, P_B, F_A)$$`
+
+where, for some ground truth flow `$F_{B|A}$` we minimize:
+
+`$$\mathbb{E}\left[D(F_{B|A}, \tilde{F_B})\right]$$`
+
+for some similarity function `$D$`.
+
 -----
 
 
