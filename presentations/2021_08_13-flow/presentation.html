@@ -11,6 +11,10 @@ permalink: /flow
     .col {
         flex: 1;
     }
+    .given {
+        font-size: 0.7em;
+        line-height: .1em;
+    }
 </style>
 
 # Policy Transfer by Imagining Flow <!-- .element: class="r-fit-text" -->
@@ -47,9 +51,12 @@ How does this object work? <!-- .element: class="fragment" data-fragment-index="
 </div>
 
 <div class="r-stack">
-  <p class="fragment current-visible" data-fragment-index="1">Sub question:<br>how do we reason about this object's affordances?</p>
-  <p class="fragment current-visible" data-fragment-index="2">Maybe we notice individual parts...</p>
-  <p class="fragment" data-fragment-index="3">...and imagine what kinds of motions are possible!</p>
+  <div class="fragment current-visible" data-fragment-index="1">For now, let's just ask:<p><b>How does this object move?</b></p></div>
+  <div>
+    <p class="fragment" data-fragment-index="2">Maybe we notice individual parts...</p>
+    <p class="fragment" data-fragment-index="3">...and imagine <u>what kinds of motions are possible.</u></p>
+    <p class="fragment" data-fragment-index="4">(we can answer this because we've seen lighters before)</p>
+  </div>
 </div>
 
 ---
@@ -59,34 +66,123 @@ How does this object work? <!-- .element: class="fragment" data-fragment-index="
         <img src="presentations/2021_08_13-flow/lighter_w_flow.svg" class="fragment" height=300 data-fragment-index="1">
     </div>
     <div class="col">
-        <img src="presentations/2021_08_13-flow/lighter_segment.svg" class="fragment" height=300 data-fragment-index="2">
+        <img src="presentations/2021_08_13-flow/arrow.svg" class="fragment" width=200 data-fragment-index="2">
     </div>
     <div class="col">
-        <img src="presentations/2021_08_13-flow/lighter_w_flow.svg" height="300" class="fragment" data-fragment-index="3">
+        <div class="r-stack fragment" data-fragment-index="3">
+            <img src="presentations/2021_08_13-flow/thumbsup.svg" height="335">
+            <!-- <img src="presentations/2021_08_13-flow/lighter_w_flow.svg" height="300"  > -->
+        </div>
     </div>
 </div>
 
 <div class="r-stack">
     <div class="fragment current-visible" data-fragment-index="1">
-        <p class="r-fit-text">Informally, let's call this version of affordances "imagined flow".</p>
+        Informally, let's call this visual affordance <mark>"imagined flow"</mark>.
     </div>
-    
-    <p class="fragment current-visible" data-fragment-index="2">
-        Using this imagined flow...
-    </p>
-    <p class="fragment" data-fragment-index="3">
-        ...and imagine what kinds of motions are possible!
-    </p>
-  </div>
+    <div class="current-visible" >
+        <p class="fragment" data-fragment-index="2">
+            With <mark>imagined flow</mark> flow alone, 
+        </p>
+        <p class="fragment" data-fragment-index="3">
+            we can derive a reasonably good manipulation policy
+        </p>
+    </div>
+    <!-- <p class="fragment" data-fragment-index="2">With this imagined flow alone,</p> -->
+    <!-- <p class="fragment" data-fragment-index="2">Maybe we notice individual parts...</p>
+    <p class="fragment" data-fragment-index="3">...and imagine <u>what kinds of motions are possible.</u></p>
+    <p class="fragment" data-fragment-index="4">(we can answer this because we've seen lighters before)</p> -->
+</div>
+  
+---
 
+Two assumptions we'd like to relax:
+
+1. We have an object model we can segment into parts. <!-- .element: class="fragment" data-fragment-index="1" -->
+
+2. <u>We already have an understanding of how we want this object to move.</u> <!-- .element: class="fragment" data-fragment-index="2" -->
+
+---
+
+Relaxation 1: No need for object model or segmentation.
+
+<div class="container">
+    <div class="col">
+        <img src="presentations/2021_08_13-flow/lighter_segment.svg" class="fragment" height=300 data-fragment-index="1">
+    </div>
+    <div class="col">
+        <img src="presentations/2021_08_13-flow/arrow.svg" class="fragment" width=200 data-fragment-index="2">
+    </div>
+    <div class="col">
+        <img src="presentations/2021_08_13-flow/lighter_pc.svg" height="300" class="fragment" data-fragment-index="3">
+    </div>
+</div>
+
+<div class="fragment">
+<b>Geometry seems relevant to this task</b>, so we choose to operate on <mark>unlabeled point clouds</mark> 
+</div>
+
+(colors here are for visualization, not provided) <!-- .element: class="fragment" -->
+
+---
+
+Relaxation 2: No need to understand the task completely - we can use a motion demonstration from another object!
+
+---
+
+
+
+### <u>Given</u> <!-- .element: class="fragment" -->
+
+<div class="container">
+    <div class="col given fragment">
+        Source Object `$A$`:
+        * a source point cloud `$P_A$`
+        * a ground-truth flow `$F_A$`
+    </div>
+    <div class="col given fragment">
+        Destination object `$B$`:
+        * a destination point cloud `$P_B$`
+    </div>
+</div>
+
+
+### <u>Task</u> <!-- .element: class="fragment" -->
+
+<div class="fragment">
+<mark>Transfer</mark> flow $F_A$ to object $B$ to produce flow $F_B$
+so that the object deforms in a <u>characteristically similar way</u>.
+</div>
 -----
 
 
 ### Related Work
 
+---
+
+<u>Predicting articulation structure.</u> <!-- .element: class="r-fit-text" -->
+
+Screw-Net
+
+Category-Level Articulated Object Pose Estimation
+
+Visual Identification of Articulated Object Parts
+
+---
+
+<u>Learning manipulation affordances for articulated objects.</u> <!-- .element: class="r-fit-text" -->
+
+Act the Part: Learning Interaction Strategies for Articulated Object Part Discovery
+
+*** This is about learning articulated parts, but in a lot of ways it's learning affordances for where to manipulate articulated objects.
+
+Where2Act: From Pixels to Actions for Articulated 3D Objects
+
 -----
 
 ### Method
+
+
 
 -----
 
