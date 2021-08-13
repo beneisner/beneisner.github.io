@@ -144,14 +144,14 @@ In other words, <mark>observe flow on a source object</mark> during a demonstrat
 
 <div class="container">
     <div class="col given fragment">
-        <u>Source Object $A$:</u>
+        <u>Source Object $A$:</u><br>
         <ul>
             <li>a source point cloud $P_A$</li>
             <li>a ground-truth flow $F_A$</li>
         </ul>
     </div>
     <div class="col given fragment">
-        <u>Destination object $B$:</u>
+        <u>Destination object $B$:</u><br>
         <ul>
             <li>a destination point cloud $P_B$</li>
         </ul>
@@ -208,7 +208,11 @@ Visual Identification of Articulated Object Parts
 </div>
 ---
 
-### <u>Category-Level Articulated Object Pose Estimation</u>
+### <u>Category-Level Articulated Object Pose Estimation</u> <!-- .element: class="r-fit-text" -->
+
+<img src="presentations/2021_08_13-flow/cat_level.png" height=300>
+
+**Key idea: Consider each object into a cannonical space, segment, and predict articulations w.r.t. a part template.**
 
 
 <div style="font-size: 0.3em; line-height: 1.2em;">
@@ -216,15 +220,60 @@ Visual Identification of Articulated Object Parts
     Xiaolong Li, He Wang, Li Yi, Leonidas Guibas, A. Lynn Abbott, Shuran Song <br>
     <a href="https://arxiv.org/abs/1912.11913">https://arxiv.org/abs/1912.11913</a>
 </div>
+
+---
+
+### Visual Identification of Articulated Object Parts <!-- .element: class="r-fit-text" -->
+
+<img src="presentations/2021_08_13-flow/visual_ident.png" height=300>
+
+**Key idea: Densely predict relative displacement of segmented parts, and use that to predict articulation type.**
+
+<div style="font-size: 0.3em; line-height: 1.2em;">
+    <u>Visual Identification of Articulated Object Parts</u> <br>
+    Vicky Zeng, Timothy E. Lee, Jacky Liang, Oliver Kroemer <br>
+    <a href="https://arxiv.org/abs/2012.00284">https://arxiv.org/abs/2012.00284</a>
+</div>
+
 ---
 
 <u>Learning manipulation affordances for articulated objects.</u> <!-- .element: class="r-fit-text" -->
 
 Act the Part: Learning Interaction Strategies for Articulated Object Part Discovery
 
-*** This is about learning articulated parts, but in a lot of ways it's learning affordances for where to manipulate articulated objects.
-
 Where2Act: From Pixels to Actions for Articulated 3D Objects
+
+---
+
+### Act the Part: Learning Interaction Strategies for Articulated Object Part Discovery
+<!-- .element: class="r-fit-text" -->
+
+<img src="presentations/2021_08_13-flow/act_the_part.png" height=300>
+
+**Key idea: Learn visual affordances to achieve articulation, and use motion to segment novel object parts.**
+
+<div style="font-size: 0.3em; line-height: 1.2em;">
+    <u>Act the Part: Learning Interaction Strategies for Articulated Object Part Discovery
+    </u> <br>
+    Samir Yitzhak Gadre, Kiana Ehsani, Shuran Song <br>
+    <a href="https://arxiv.org/abs/2105.01047">https://arxiv.org/abs/2105.01047</a>
+</div>
+
+---
+
+### Where2Act: From Pixels to Actions for Articulated 3D Objects <!-- .element: class="r-fit-text" -->
+
+<img src="presentations/2021_08_13-flow/where2act.png" height=300>
+
+**Key idea: Learn visual affordances for distinct motion primitives from simulated interactions.**
+
+<div style="font-size: 0.3em; line-height: 1.2em;">
+    <u>Where2Act: From Pixels to Actions for Articulated 3D Objects
+    </u> <br>
+    Kaichun Mo, Leonidas Guibas, Mustafa Mukadam, Abhinav Gupta, Shubham Tulsiani<br>
+    <a href="https://arxiv.org/abs/2101.02692">https://arxiv.org/abs/2101.02692</a>
+</div>
+
 
 -----
 
@@ -234,7 +283,7 @@ Where2Act: From Pixels to Actions for Articulated 3D Objects
 
 ### Architecture
 
-<img src="presentations/2021_08_13-flow/method_diagram.svg">
+<img src="presentations/2021_08_13-flow/method_diagram.svg" height="500">
 
 
 ---
@@ -283,56 +332,101 @@ Choose a single training class and a single articulation type (i.e. faucets/hand
     <li class="fragment">Compute loss: $$L_{\text{MSE}} = \frac{1}{N}\sum_{f_{B,i}, \tilde{f}_{B,i} \in (F_{B|A}, \tilde{F}_{B|A})}{|| f_{B,i} - \tilde{f}_{B,i} ||^2}$$</li>
 </ul>
 </div>
------
-
-
-### Results
-
------
-
-Vertical slides are separated by `- - -`
-
-<iframe src="presentations/2021_08_13-flow/1_gt.html" height="400" width="800"></iframe>
----
-
-Vertical slides are separated by `- - -` .
-
-
-
 
 ---
 
-### Here's an example
+PSA: Don't give up on your training curves too early.
 
-`$$ f(x) = \pi $$`
+<img src="presentations/2021_08_13-flow/loss_curve.png">
+
+(2hrs in, loss starts to drop)
+
+-----
+
+
+### Results (preliminary)
 
 ---
 
-Vertical slides are separated by `- - -` ..
+## Quantitative
+
+This table shows the <mark>RMSE of the predicted flow vectors</mark>, averaged across the 
+object.
+
+
+<table>
+    <tr>
+        <th></th>
+        <th>Door</th>
+        <th>Faucet</th>
+        <th>Laptop</th>
+        <th>Stapler</th>
+    </tr>
+    <tr>
+        <td>Ours (train/val)</td>
+        <td>0.05/0.32</td>
+        <td>0.01/0.08</td>
+        <td>0.01/0.12</td>
+        <td>0.01/0.2</td>
+    </tr>
+</table>
+
+Takeaway: the model has the capacity to represent sophisticated flows, and can generalize pretty well to novel instances. <!-- .element: class="fragment" -->
+
+Current TODO: Gather better results for baselines (our trivial ones don't work) <!-- .element: class="fragment r-fit-text" -->
+
+
+---
+
+### Qualitative
+
+---
+
+### Laptop, train
+
+---
+
+<iframe data-src="presentations/2021_08_13-flow/t_laptop_1.html" height="800" width="1200"></iframe>
+
+<!-- <section data-background-iframe="presentations/2021_08_13-flow/t_laptop_1.html" data-background-interactive> -->
+
+---
+
+<iframe data-src="presentations/2021_08_13-flow/t_laptop_2.html" height="800" width="1200"></iframe>
+
+---
+
+### Faucet, train 
+
+---
+
+<iframe data-src="presentations/2021_08_13-flow/t_faucet_1.html" height="800" width="1200"></iframe>
+
+---
+
+<iframe data-src="presentations/2021_08_13-flow/t_faucet_2.html" height="800" width="1200"></iframe>
+
+---
+
+### Faucet, unseen 
+
+---
+
+<iframe data-src="presentations/2021_08_13-flow/v_faucet_1.html" height="800" width="1200"></iframe>
+
+---
+
+<iframe data-src="presentations/2021_08_13-flow/v_faucet_2.html" height="800" width="1200"></iframe>
+
 
 -----
 
-# title
-## skills
-* one
-* two
-* three
 
-## heading
-8. three
-1. one
-1. two
 
+### Summary
 
 -----
 
+### Discussion Questions
 
-# Questions
-
------
-
-## made with
-
-#### [reveal.js](https://github.com/hakimel/reveal.js)
-
-#### [excalidraw](https://github.com/excalidraw/excalidraw)
+*  
