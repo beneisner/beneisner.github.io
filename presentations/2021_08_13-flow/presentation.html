@@ -425,8 +425,24 @@ Current TODO: Gather better results for baselines (our trivial ones don't work) 
 
 ### Summary
 
+<u><b>Problem Statement:</b></u> <!-- .element: class="fragment" -->
+
+Transfer flow from one object to another.<!-- .element: class="fragment" -->
+
+<u>**Method**:</u> <!-- .element: class="fragment" -->
+
+Use a dual-headed encoder, where we inject the flow embedding of a source object directly into the decoder for the destination flow. <!-- .element: class="fragment" -->
+
+<u>**Results**:</u><!-- .element: class="fragment" -->
+
+They look ok!<!-- .element: class="fragment " -->
+
 -----
 
 ### Discussion Questions
 
-*  
+* What are some ways we can use flow in downstream manipulation tasks?<!-- .element: class="fragment" -->
+
+* Is flow the "right" representation for this task? Why not articulation parameters directly?<!-- .element: class="fragment" -->
+
+* How might this model extend to objects with many articulations?<!-- .element: class="fragment" -->
