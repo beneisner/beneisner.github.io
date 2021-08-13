@@ -2,7 +2,7 @@
 layout: presentation
 title: Flow-based Policy Transfer
 permalink: /flow
-published: false
+published: true
 ---
 
 <style>
@@ -195,6 +195,28 @@ Category-Level Articulated Object Pose Estimation
 Visual Identification of Articulated Object Parts
 
 ---
+### <u>Screw-Net</u>
+
+<img src="presentations/2021_08_13-flow/screw_net.png" height=300>
+
+**Key idea: unify articulations under screw theory, and estimate screw parameters from video.**
+
+<div style="font-size: 0.3em; line-height: 1.2em;">
+    <u>ScrewNet: Category-Independent Articulation Model Estimation From Depth Images Using Screw Theory</u> <br>
+    Ajinkya Jain, Rudolf Lioutikov, Caleb Chuck, Scott Niekum <br>
+    <a href="https://arxiv.org/abs/2008.10518">https://arxiv.org/abs/2008.10518</a>
+</div>
+---
+
+### <u>Category-Level Articulated Object Pose Estimation</u>
+
+
+<div style="font-size: 0.3em; line-height: 1.2em;">
+    <u>Category-Level Articulated Object Pose Estimation</u> <br>
+    Xiaolong Li, He Wang, Li Yi, Leonidas Guibas, A. Lynn Abbott, Shuran Song <br>
+    <a href="https://arxiv.org/abs/1912.11913">https://arxiv.org/abs/1912.11913</a>
+</div>
+---
 
 <u>Learning manipulation affordances for articulated objects.</u> <!-- .element: class="r-fit-text" -->
 
@@ -208,8 +230,59 @@ Where2Act: From Pixels to Actions for Articulated 3D Objects
 
 ### Method
 
+---
+
+### Architecture
+
+<img src="presentations/2021_08_13-flow/method_diagram.svg">
 
 
+---
+
+### Architecture
+
+<ul>
+    <li class="fragment"><mark>FlowNet</mark> encodes the source object geometry and the object flow (i.e. from a demonstration)</li>
+    <li class="fragment">
+        <mark>TransferNet</mark>
+        <ul>
+            <li>first, encodes the geometry of the destination object</li>
+            <li>second, injects the FlowNet embedding at the lowest layer</li>
+            <li>third, reconstructs the dstination flow</li>
+        </ul>
+    </li>
+</ul>
+
+---
+
+### Dataset: PartNet-Mobility
+
+<video autoplay loop height="300">
+    <source src="./presentations/2021_08_13-flow/data_demo.mp4" type="video/mp4">
+</video>
+
+<ul>
+    <li class="fragment">50+ object categories, 2000+ objects</li>
+    <li class="fragment">3D models for each object</li>
+    <li class="fragment"><u>Models annotated with articulations, so demonstrations can be generated.</u></li>
+</ul>
+
+---
+
+### Training
+
+<div style="font-size: 0.7em;">
+Choose a single training class and a single articulation type (i.e. faucets/handles)
+
+<u>For each training step:</u>
+<ul>
+    <li class="fragment">Select a pair of objects $A,B$ which each have 1+ instance of the articulation type in question</li>
+    <li class="fragment">On each object, generate flows $F_A$, $F_{B|A}$ that correspond to articulation motions in the same direction and with the same magnitude </li>
+    <li class="fragment">Construct tuple ($P_A, F_A, P_B, F_{A|B}$)</li>
+    <li class="fragment">Compute flow: $$\tilde{F}_{B|A} = f_{\theta, \phi}(P_A, F_A, P_B)$$</li>
+    <li class="fragment">Compute loss: $$L_{\text{MSE}} = \frac{1}{N}\sum_{f_{B,i}, \tilde{f}_{B,i} \in (F_{B|A}, \tilde{F}_{B|A})}{|| f_{B,i} - \tilde{f}_{B,i} ||^2}$$</li>
+</ul>
+</div>
 -----
 
 
