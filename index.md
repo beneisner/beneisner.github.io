@@ -8,7 +8,7 @@ permalink: /
 
 My name is Ben Eisner, and I'm a Machine Learning and Robotics researcher. I build robotic systems that learn to interact with the unstructured world.
 
-I'm currently a 1st-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+I'm currently a 2nd-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 <!-- Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}). -->
 
@@ -17,6 +17,8 @@ Here is a recent version of my [academic cv]({{site.cv_path}}), my [Google Schol
 You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
+
+- 09/14/21: We just submitted a [paper](https://sites.google.com/view/transparentliquidpouring) on transparent liquid seqmentation to ICRA 2022!
 
 - 02/28/21: Our [paper](https://arxiv.org/abs/2003.01649) on learning to grasp objects from grasp proposal was accepted to ICRA 2021!
 
@@ -45,6 +47,11 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 # Publications:
 
 ## 2021
+
+**Transparent Liquid Segmentation for Robotic Pouring**  
+Gautham Narasimhan, Kai Zhang, **Ben Eisner**, Xingyu Lin, David Held  
+_Under review at ICRA 2022_  
+[website](https://sites.google.com/view/transparentliquidpouring)
 
 **Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**  
 Daniel Yang, Tarik Tosun, **Ben Eisner**, Volkan Isler, Daniel Lee  
