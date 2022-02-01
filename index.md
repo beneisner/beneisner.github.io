@@ -18,7 +18,11 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
-- 09/14/21: We just submitted a [paper](https://sites.google.com/view/transparentliquidpouring) on transparent liquid seqmentation to ICRA 2022!
+- 01/31/22: Our [paper](https://sites.google.com/view/transparentliquidpouring) on transparent liquid seqmentation was accepted to ICRA 2022!
+
+- 01/28/22: We submitted a [paper](https://sites.google.com/view/articulated-flowbot-3d) on learning 3D flow for articulation manipulation to RSS 2022!
+
+- 01/27/22: We submitted a [paper](https://sites.google.com/view/deep-sequenced-lds) on sequenced dynamical systems for RL to ICML 2022!
 
 - 02/28/21: Our [paper](https://arxiv.org/abs/2003.01649) on learning to grasp objects from grasp proposal was accepted to ICRA 2021!
 
@@ -46,12 +50,24 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # Publications:
 
-## 2021
+## 2022
+
+**FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects**  
+**Ben Eisner\***, Harry Zhang\*, David Held  
+_Under review at RSS 2022_  
+[website](https://sites.google.com/view/articulated-flowbot-3d)
+
+**Deep Sequenced Linear Dynamical Systems for Manipulation Policy Learning**  
+M. Nomaan Qureshi, **Ben Eisner**, David Held  
+_Under review at ICML 2022_  
+[website](https://sites.google.com/view/deep-sequenced-lds)
 
 **Transparent Liquid Segmentation for Robotic Pouring**  
 Gautham Narasimhan, Kai Zhang, **Ben Eisner**, Xingyu Lin, David Held  
-_Under review at ICRA 2022_  
+_ICRA 2022_  
 [website](https://sites.google.com/view/transparentliquidpouring)
+
+## 2021
 
 **Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**  
 Daniel Yang, Tarik Tosun, **Ben Eisner**, Volkan Isler, Daniel Lee  
