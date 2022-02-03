@@ -52,15 +52,21 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 ## 2022
 
+![FlowBot3D](/files/flowbot3d.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"}
+
 **FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects**  
 **Ben Eisner\***, Harry Zhang\*, David Held  
 _Under review at RSS 2022_  
 [website](https://sites.google.com/view/articulated-flowbot-3d)
 
+![dLDS](/files/dlds.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
+
 **Deep Sequenced Linear Dynamical Systems for Manipulation Policy Learning**  
 M. Nomaan Qureshi, **Ben Eisner**, David Held  
 _Under review at ICML 2022_  
 [website](https://sites.google.com/view/deep-sequenced-lds)
+
+![Pouring](/files/water1.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
 
 **Transparent Liquid Segmentation for Robotic Pouring**  
 Gautham Narasimhan, Kai Zhang, **Ben Eisner**, Xingyu Lin, David Held  
@@ -69,12 +75,17 @@ _ICRA 2022_
 
 ## 2021
 
+![P2G](/files/p2g.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
+
 **Robotic Grasping through Combined image-Based Grasp Proposal and 3D Reconstruction**  
 Daniel Yang, Tarik Tosun, **Ben Eisner**, Volkan Isler, Daniel Lee  
 _ICRA 2021_  
 [arxiv](https://arxiv.org/abs/2003.01649)
 
 ## 2020
+
+![QXplore](/files/qxplore.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
+
 
 **Reward Prediction Error as an Exploration Objective in Deep RL**  
 Riley Simmons-Edler, **Ben Eisner**, Daniel Yang, Anthony Bisulco, Eric Mitchell, Sebastian Seung, Daniel Lee  
@@ -83,10 +94,16 @@ _IJCAI 2020 (Earlier draft presented at NeurIPS 2020 Workshop on Deep RL)_
 
 ## 2019
 
+![P2P](/files/p2p.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
+
+
 **Pixels to Plans: Learning Non-Prehensile Manipulation by Imitating a Planner**  
 Tarik Tosun\*, Eric Mitchell\*, **Ben Eisner**, Jinwook Huh, Bhoram Lee, Daewon Lee, Volkan Isler, Sebastian Seung, Daniel Lee  
 _IROS 2019_  
 [arxiv](https://arxiv.org/abs/1904.03260) | [website](https://sites.google.com/prod/view/pixels-to-plans/home) | [video](https://www.youtube.com/watch?v=voIkyiBtwn4&t=1s)
+
+![CGP](/files/cgp.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
+
 
 **Q-Learning for Continuous Actions with Cross-Entropy Guided Policies**  
 Riley Simmons-Edler\*, **Ben Eisner\***, Eric Mitchell, Sebastian Seung, Daniel Lee  
@@ -95,12 +112,18 @@ _ICML 2019 Workshop on RL4RealLife_
 
 ## 2017
 
+![Brain](/files/brain1.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
+
+
 **Deep Learning Methods for 3D Segmentation of Neural Tissue in EM Images**  
 **Ben Eisner**  
 _Princeton University Senior Thesis_  
 [thesis]({{site.thesis_path}}) | [project](https://github.com/tartavull/trace)
 
 ## 2016
+
+![emoji2vec](/files/emoji.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
+
 
 **emoji2vec: Learning emoji representations from their description**  
 **Ben Eisner**, Tim Rocktäschel, Isabelle Augenstein, Matko Bošnjak, Sebastian Riedel  
