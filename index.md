@@ -68,10 +68,10 @@ _Under review at ICML 2022_
 
 ![Pouring](/files/water1.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
 
-**Transparent Liquid Segmentation for Robotic Pouring**  
+**Self-supervised Transparent Liquid Segmentation for Robotic Pouring**  
 Gautham Narasimhan, Kai Zhang, **Ben Eisner**, Xingyu Lin, David Held  
 _ICRA 2022_  
-[website](https://sites.google.com/view/transparentliquidpouring)
+[website](https://sites.google.com/view/transparentliquidpouring) | [arXiv](https://arxiv.org/abs/2203.01538)
 
 ## 2021
 
