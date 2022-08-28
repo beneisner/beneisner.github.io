@@ -8,7 +8,7 @@ permalink: /
 
 My name is Ben Eisner, and I'm a Machine Learning and Robotics researcher. I build robotic systems that learn to interact with the unstructured world.
 
-I'm currently a 2nd-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+I'm currently a 3rd-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 <!-- Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}). -->
 
@@ -18,17 +18,15 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
-- 04/11/22: Our [paper](https://sites.google.com/view/articulated-flowbot-3d) on learning 3D flow for articulation manipulation was accepted to RSS 2022!
+- 7/11/22: I started an internship at DeepMind on the Robotics team in London!
 
-- 01/31/22: Our [paper](https://sites.google.com/view/transparentliquidpouring) on transparent liquid seqmentation was accepted to ICRA 2022!
+- 6/20/22: Our [paper](https://sites.google.com/view/articulated-flowbot-3d) on learning 3D flow for articulation manipulation was nominated for Best Paper at RSS 2022!
 
-- 01/27/22: We submitted a [paper](https://sites.google.com/view/deep-sequenced-lds) on sequenced dynamical systems for RL to ICML 2022!
+- 1/31/22: Our [paper](https://sites.google.com/view/transparentliquidpouring) on transparent liquid seqmentation was accepted to ICRA 2022!
 
-- 02/28/21: Our [paper](https://arxiv.org/abs/2003.01649) on learning to grasp objects from grasp proposal was accepted to ICRA 2021!
+- 2/28/21: Our [paper](https://arxiv.org/abs/2003.01649) on learning to grasp objects from grasp proposal was accepted to ICRA 2021!
 
 - 8/31/20: I started my Ph.D. program in Robotics at Carnegie Mellon University!
-
-- 4/20/20: Our [paper](https://arxiv.org/abs/1906.08189) using TD-error as an exploration signal was accepted for publication at IJCAI 2020!
 
 - 3/30/20: I was selected to receive the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) for the fellowship class of 2020!
 
@@ -52,12 +50,19 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 ## 2022
 
+![TAX-Pose](/files/taxpose.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"}
+
+**TAX-Pose: Task-Specific Cross-Pose Estimation for Robot Manipulation**  
+Chuer Pan\*, Brian Okorn\*, Harry Zhang\*, **Ben Eisner\***, David Held  
+_Under Review at CoRL 2022_  
+[website](https://sites.google.com/view/tax-pose/home)
+
 ![FlowBot3D](/files/flowbot3d.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"}
 
 **FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects**  
 **Ben Eisner\***, Harry Zhang\*, David Held  
-_RSS 2022_  
-[website](https://sites.google.com/view/articulated-flowbot-3d)
+_RSS 2022, Best Paper Finalist_  
+[website](https://sites.google.com/view/articulated-flowbot-3d) | [arXiv](https://arxiv.org/abs/2205.04382)
 
 ![dLDS](/files/dlds.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
 
