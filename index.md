@@ -18,6 +18,8 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
+- 9/10/22: Our [paper](https://openreview.net/forum?id=YmJi0bTfeNX) on learning dense, optimization-based pose estimation for robotics tasks, was accepted to CoRL 2022!
+
 - 7/11/22: I started an internship at DeepMind on the Robotics team in London!
 
 - 6/20/22: Our [paper](https://sites.google.com/view/articulated-flowbot-3d) on learning 3D flow for articulation manipulation was nominated for Best Paper at RSS 2022!
@@ -54,8 +56,8 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 **TAX-Pose: Task-Specific Cross-Pose Estimation for Robot Manipulation**  
 Chuer Pan\*, Brian Okorn\*, Harry Zhang\*, **Ben Eisner\***, David Held  
-_Under Review at CoRL 2022_  
-[website](https://sites.google.com/view/tax-pose/home)
+_CoRL 2022_  
+[website](https://sites.google.com/view/tax-pose/home) | [OpenReview](https://openreview.net/forum?id=YmJi0bTfeNX)
 
 ![FlowBot3D](/files/flowbot3d.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"}
 
