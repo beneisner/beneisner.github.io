@@ -8,7 +8,7 @@ permalink: /
 
 My name is Ben Eisner, and I'm a Machine Learning and Robotics researcher. I build robotic systems that learn to interact with the unstructured world.
 
-I'm currently a 3rd-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+I'm currently a 4th-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 <!-- Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}). -->
 
@@ -70,7 +70,7 @@ _RSS 2022, Best Paper Finalist_
 
 **Deep Sequenced Linear Dynamical Systems for Manipulation Policy Learning**  
 M. Nomaan Qureshi, **Ben Eisner**, David Held  
-_Under review at ICML 2022_  
+_ICLR 2022 Workshop on Generalizable Policy Learning in Physical World_  
 [website](https://sites.google.com/view/deep-sequenced-lds)
 
 ![Pouring](/files/water1.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px; "}
