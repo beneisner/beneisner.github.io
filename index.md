@@ -18,15 +18,13 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
+- 8/30/23: Our [paper](https://arxiv.org/abs/2306.12893) on manipulating articulated objects has been accepted to CoRL 2023!
+
 - 9/10/22: Our [paper](https://openreview.net/forum?id=YmJi0bTfeNX) on learning dense, optimization-based pose estimation for robotics tasks, was accepted to CoRL 2022!
 
 - 7/11/22: I started an internship at DeepMind on the Robotics team in London!
 
 - 6/20/22: Our [paper](https://sites.google.com/view/articulated-flowbot-3d) on learning 3D flow for articulation manipulation was nominated for Best Paper at RSS 2022!
-
-- 1/31/22: Our [paper](https://sites.google.com/view/transparentliquidpouring) on transparent liquid seqmentation was accepted to ICRA 2022!
-
-- 2/28/21: Our [paper](https://arxiv.org/abs/2003.01649) on learning to grasp objects from grasp proposal was accepted to ICRA 2021!
 
 - 8/31/20: I started my Ph.D. program in Robotics at Carnegie Mellon University!
 
@@ -49,6 +47,22 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 </div> -->
 
 # Publications:
+
+## 2023
+
+![Flowbot++](/files/cropped_fbpp.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"}
+
+**FlowBot++: Learning Generalized Articulated Objects Manipulation via Articulation Projection**  
+Harry Zhang, **Ben Eisner**, David Held  
+_CoRL 2023_  
+[website](https://sites.google.com/view/flowbotpp/home) | [arXiv](https://arxiv.org/abs/2306.12893)
+
+![MultiHead](/files/multihead.png){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"}  
+
+**On Time-Indexing as Inductive Bias in Deep RL for Sequential Manipulation Tasks**  
+M. Nomaan Qureshi, **Ben Eisner**, David Held  
+_Learning Meets Model-based Methods for Manipulation and Grasping Workshop @ IROS 2023_  
+website | arXiv
 
 ## 2022
 
