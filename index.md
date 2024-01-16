@@ -18,11 +18,11 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
+- 1/16/24: Our [paper](https://openreview.net/forum?id=2inBuwTyL2) on provably-SE(3)-equivariant geometric reasoning from vision has been accepted to ICLR 2024! This work incorporates work conducted during my internship at DeepMind in 2022.
+
 - 8/30/23: Our [paper](https://arxiv.org/abs/2306.12893) on manipulating articulated objects has been accepted to CoRL 2023!
 
 - 9/10/22: Our [paper](https://openreview.net/forum?id=YmJi0bTfeNX) on learning dense, optimization-based pose estimation for robotics tasks, was accepted to CoRL 2022!
-
-- 7/11/22: I started an internship at DeepMind on the Robotics team in London!
 
 - 6/20/22: Our [paper](https://sites.google.com/view/articulated-flowbot-3d) on learning 3D flow for articulation manipulation was nominated for Best Paper at RSS 2022!
 
