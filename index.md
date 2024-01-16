@@ -71,7 +71,7 @@ _CoRL 2023_
 **On Time-Indexing as Inductive Bias in Deep RL for Sequential Manipulation Tasks**  
 M. Nomaan Qureshi, **Ben Eisner**, David Held  
 _Learning Meets Model-based Methods for Manipulation and Grasping Workshop @ IROS 2023_  
-website | arXiv
+[arXiv](https://arxiv.org/abs/2401.01993)
 
 ## 2022
 
