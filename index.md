@@ -55,7 +55,7 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 **Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks**  
 **Ben Eisner**, Yi Yang, Todor Davchev, Mel Vecerik, Jonathan Scholz, David Held  
 _ICLR 2024_  
-[website](https://sites.google.com/view/reldist-iclr-2023) | [OpenReview](https://openreview.net/forum?id=2inBuwTyL2)
+[website](https://sites.google.com/view/reldist-iclr-2023) | [arXiv] (https://arxiv.org/abs/2404.13478) | [OpenReview](https://openreview.net/forum?id=2inBuwTyL2)
 
 ## 2023
 
