@@ -8,7 +8,7 @@ permalink: /
 
 My name is Ben Eisner, and I'm a Machine Learning and Robotics researcher. I build robotic systems that learn to interact with the unstructured world.
 
-I'm currently a 4th-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+I'm currently a 5th-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University. I'm a member of the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), led by [Prof. David Held](https://davheld.github.io/). Right now, I'm working on some techniques for policy transfer. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 <!-- Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}). -->
 
@@ -18,6 +18,8 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
+- 9/4/24: Two of our papers were accepted to CoRL 2024! [One](https://openreview.net/forum?id=3ZAgXBRvla) on manipulating articulated objects under uncertainty, and [another](https://openreview.net/forum?id=rvKWXxIvj0) on relative placement for non-rigid objects.
+
 - 1/16/24: Our [paper](https://openreview.net/forum?id=2inBuwTyL2) on provably-SE(3)-equivariant geometric reasoning from vision has been accepted to ICLR 2024! This work incorporates work conducted during my internship at DeepMind in 2022.
 
 - 8/30/23: Our [paper](https://arxiv.org/abs/2306.12893) on manipulating articulated objects has been accepted to CoRL 2023!
@@ -25,8 +27,6 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 - 9/10/22: Our [paper](https://openreview.net/forum?id=YmJi0bTfeNX) on learning dense, optimization-based pose estimation for robotics tasks, was accepted to CoRL 2022!
 
 - 6/20/22: Our [paper](https://sites.google.com/view/articulated-flowbot-3d) on learning 3D flow for articulation manipulation was nominated for Best Paper at RSS 2022!
-
-- 8/31/20: I started my Ph.D. program in Robotics at Carnegie Mellon University!
 
 - 3/30/20: I was selected to receive the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) for the fellowship class of 2020!
 
@@ -51,6 +51,16 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 ## 2024
 
 <!-- ![RelDist](/files/reldist.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"} -->
+
+**FlowBotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation**  
+Yishu Li, Wen Hui Leng, Yiming Fang, **Ben Eisner**, David Held  
+_CoRL 2024_  
+[website](https://flowbothd.github.io/) | [OpenReview](https://openreview.net/forum?id=3ZAgXBRvla)
+
+**Non-rigid Relative Placement through 3D Dense Diffusion**  
+Eric Cai, Octavian Donca, **Ben Eisner**, David Held  
+_CoRL 2024_  
+[website](https://sites.google.com/view/tax3d-corl-2024) | [OpenReview](https://openreview.net/forum?id=rvKWXxIvj0)
 
 **Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks**  
 **Ben Eisner**, Yi Yang, Todor Davchev, Mel Vecerik, Jonathan Scholz, David Held  
