@@ -18,6 +18,8 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 # ❗❗❗ Recent News ❗❗❗
 
+- 10/24/24: Our paper showing the effectiveness of relative placement for RLBench tasks was accepted to the Learning Effective Abstractions for Planning (LEAP) Workshop @ CoRL 2024!
+
 - 9/4/24: Two of our papers were accepted to CoRL 2024! [One](https://openreview.net/forum?id=3ZAgXBRvla) on manipulating articulated objects under uncertainty, and [another](https://openreview.net/forum?id=rvKWXxIvj0) on relative placement for non-rigid objects.
 
 - 1/16/24: Our [paper](https://openreview.net/forum?id=2inBuwTyL2) on provably-SE(3)-equivariant geometric reasoning from vision has been accepted to ICLR 2024! This work incorporates work conducted during my internship at DeepMind in 2022.
@@ -52,6 +54,11 @@ You can reach me at [{{site.email}}](mailto:{{site.email}}).
 
 <!-- ![RelDist](/files/reldist.webp){: style="float: left; padding-right: 1em; padding-bottom: 0em; width: 120px"} -->
 
+**Sequential Object-Centric Relative Placement Prediction for Long-horizon Imitation Learning**  
+**Ben Eisner**, Eric Cai, Octavian Donca, Teeratham Vitchutripop, David Held  
+_Learning Effective Abstractions for Planning (LEAP) Workshop @ CoRL 2024_  
+[website](https://sites.google.com/view/taxpolicy-corl-2024/home)  
+
 **FlowBotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation**  
 Yishu Li, Wen Hui Leng, Yiming Fang, **Ben Eisner**, David Held  
 _CoRL 2024_  
@@ -65,7 +72,7 @@ _CoRL 2024_
 **Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks**  
 **Ben Eisner**, Yi Yang, Todor Davchev, Mel Vecerik, Jonathan Scholz, David Held  
 _ICLR 2024_  
-[website](https://sites.google.com/view/reldist-iclr-2023) | [arXiv] (https://arxiv.org/abs/2404.13478) | [OpenReview](https://openreview.net/forum?id=2inBuwTyL2)
+[website](https://sites.google.com/view/reldist-iclr-2023) | [arXiv](https://arxiv.org/abs/2404.13478) | [OpenReview](https://openreview.net/forum?id=2inBuwTyL2)
 
 ## 2023
 
