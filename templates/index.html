@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block main %}
+  <main>
+    {{ section.content | safe }}
+  </main>
+
+  <h3>Latest Blog Posts</h3>
+
+  <!-- Load first few entries from blog. -->
+  <ul class="blog-posts">
+    {% set blog_section = get_section(path="blog/_index.md") %}
+
+    {%- for page in blog_section.pages %}
+      <li>
+        <span>
+          <i>
+            <time datetime="{{ page.date | date(format='%+') }}" pubdate>
+              {{ page.date | date(format=config.extra.date_format) }}
+            </time>
+          </i>
+        </span>
+        <a href="{{ page.permalink }}">{{ page.title }}</a>
+      </li>
+      {%- else %}
+      <li>{{ trans(key="no_posts", lang=lang) }}</li>
+    {%- endfor -%}
+  </ul>
+
+  {% set data = load_data(path="content/publications.yaml") %}
+
+  <h3>Publications</h3>
+  <table style="border-spacing: 1em 1em;">
+  {% for item in data %}
+    <tr>
+        {% if item.image %}
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="{{ item.image }}" alt="{{ item.title }}" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        {% else %}
+            <td style="width: 0%"></td>
+        {% endif %}
+        <td style="width: 85%">
+            <strong>{{ item.title }}</strong><br>
+            {{ item.authors | join(sep=", ") }}<br>
+            <em>{{ item.conference }}</em><br>
+                {% if item.paper %}
+                    <a href="{{ item.paper }}" target="_blank" rel="noopener noreferrer">paper</a>
+                    {% if item.website or item.code %}|{% endif %}
+                {% endif %}
+                {% if item.website %}
+                    <a href="{{ item.website }}" target="_blank" rel="noopener noreferrer">website</a>
+                    {% if item.code %}|{% endif %}
+                {% endif %}
+                {% if item.code %}
+                    <a href="{{ item.code }}" target="_blank" rel="noopener noreferrer">code</a>
+                {% endif %}
+        </td>
+    </tr>
+  {% endfor %}
+  </table>
+
+{% endblock %}

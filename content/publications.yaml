@@ -1,0 +1,95 @@
+- title: "Sequential Object-Centric Relative Placement Prediction for Long-horizon Imitation Learning"
+  authors: ["Ben Eisner", "Eric Cai", "Octavian Donca", "Teeratham Vitchutripop", "David Held"]
+  conference: CoRL 2023
+  website: "https://sites.google.com/view/taxpolicy-corl-2024/home"
+  paper: "https://openreview.net/forum?id=4CLiGBQV3U"
+  code: "https://github.com/r-pad/taxpose"
+- title: "FlowbotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation"
+  authors: ["Yishu Li", "Wen Hui Leng", "Yiming Fang", "Ben Eisner", "David Held"]
+  conference: Learning Effective Abstractions for Planning (LEAP) Workshop @ CoRL 2024
+  website: "https://flowbothd.github.io/"
+  paper: "https://openreview.net/forum?id=3ZAgXBRvla"
+  code: "https://github.com/liy1shu/FlowBotHD/"
+- title: "Non-rigid Relative Placement through 3D Dense Diffusion"
+  authors: ["Eric Cai", "Octavian Donca", "Ben Eisner", "David Held"]
+  conference: CoRL 2024
+  website: "https://sites.google.com/view/tax3d-corl-2024/home"
+  paper: "https://openreview.net/forum?id=rvKWXxIvj0"
+  code: "https://github.com/ey-cai/non-rigid"
+- title: "Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks"
+  authors: ["Ben Eisner", "Yi Yang", "Todor Davchev", "Mel Vecerik", "Jonathan Scholz", "David Held"]
+  conference: International Conference on Learning Representations (ICLR) 2024
+  website: "https://sites.google.com/view/reldist-iclr-2023"
+  paper: "https://arxiv.org/abs/2404.13478"
+  code: "https://github.com/r-pad/taxpose"
+- title: "FlowBot++: Learning Generalized Articulated Objects Manipulation via Articulation Projection"
+  authors: ["Harry Zhang", "Ben Eisner", "David Held"]
+  conference: CoRL 2023
+  website: "https://sites.google.com/view/flowbotpp/home"
+  paper: "https://arxiv.org/abs/2306.12893"
+  code: "https://github.com/harryzhangOG/flowbotpp"
+  image: "publication_thumbnails/cropped_fbpp.webp"
+- title: "On Time-Indexing as Inductive Bias in Deep RL for Sequential Manipulation Tasks"
+  authors: ["M. Nomaan Qureshi", "Ben Eisner", "David Held"]
+  conference: Learning Meets Model-based Methods for Manipulation and Grasping Workshop @ IROS 2023
+  paper: "https://arxiv.org/abs/2401.01993"
+  image: "publication_thumbnails/multihead.png"
+- title: "TAX-Pose: Task-Specific Cross-Pose Estimation for Robot Manipulation"
+  authors: ["Chuer Pan", "Brian Okorn", "Harry Zhang", "Ben Eisner", "David Held"]
+  conference: CoRL 2022
+  website: "https://sites.google.com/view/tax-pose/home"
+  paper: "https://openreview.net/forum?id=YmJi0bTfeNX"
+  code: "https://sites.google.com/view/tax-pose/home"
+  image: "publication_thumbnails/taxpose.webp"
+- title: "FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects"
+  authors: ["Ben Eisner", "Harry Zhang", "David Held"]
+  conference: RSS 2022, Best Paper Finalist
+  website: "https://sites.google.com/view/articulated-flowbot-3d"
+  paper: "https://arxiv.org/abs/2205.04382"
+  code: "https://sites.google.com/view/articulated-flowbot-3d"
+  image: "publication_thumbnails/flowbot3d.webp"
+- title: "Deep Sequenced Linear Dynamical Systems for Manipulation Policy Learning"
+  authors: ["M. Nomaan Qureshi", "Ben Eisner", "David Held"]
+  conference: ICLR 2022 Workshop on Generalizable Policy Learning in Physical World
+  website: "https://sites.google.com/view/deep-sequenced-lds"
+  paper: "https://arxiv.org/abs/2205.04382"
+  code: "https://sites.google.com/view/deep-sequenced-lds"
+  image: "publication_thumbnails/dlds.png"
+- title: "Self-supervised Transparent Liquid Segmentation for Robotic Pouring"
+  authors: ["Gautham Narasimhan", "Kai Zhang", "Ben Eisner", "Xingyu Lin", "David Held"]
+  conference: ICRA 2022
+  website: "https://sites.google.com/view/transparentliquidpouring"
+  paper: "https://arxiv.org/abs/2203.01538"
+  code: "https://github.com/gauthamn/transparentliquidpouring"
+  image: "publication_thumbnails/water1.webp"
+- title: "Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction"
+  authors: ["Daniel Yang", "Tarik Tosun", "Ben Eisner", "Volkan Isler", "Daniel Lee"]
+  conference: ICRA 2021
+  paper: "https://arxiv.org/abs/2003.01649"
+  image: "publication_thumbnails/p2g.png"
+- title: Reward Prediction Error as an Exploration Objective in Deep RL
+  authors: ["Riley Simmons-Edler", "Ben Eisner", "Daniel Yang", "Anthony Bisulco", "Eric Mitchell", "Sebastian Seung", "Daniel Lee"]
+  conference: IJCAI 2020
+  paper: "https://arxiv.org/abs/1906.08189"
+  image: "publication_thumbnails/qxplore.png"
+- title: "Pixels to Plans: Learning Non-Prehensile Manipulation by Imitating a Planner"
+  authors: ["Tarik Tosun", "Eric Mitchell", "Ben Eisner", "Jinwook Huh", "Bhoram Lee", "Daewon Lee", "Volkan Isler", "Sebastian Seung", "Daniel Lee"]
+  conference: IROS 2019
+  paper: "https://arxiv.org/abs/1904.03260"
+  image: "publication_thumbnails/p2p.png"
+- title: "Q-Learning for Continuous Actions with Cross-Entropy Guided Policies"
+  authors: ["Riley Simmons-Edler", "Ben Eisner", "Eric Mitchell", "Sebastian Seung", "Daniel Lee"]
+  conference: ICML 2019 Workshop on RL4RealLife
+  paper: "https://arxiv.org/abs/1903.10605"
+  image: "publication_thumbnails/cgp.png"
+- title: Deep Learning Methods for 3D Segmentation of Neural Tissue in EM Images
+  authors: ["Ben Eisner", "Daniel Yang", "Anthony Bisulco", "Eric Mitchell", "Sebastian Seung", "Daniel Lee"]
+  conference: Princeton University Senior Thesis
+  code: "https://github.com/tartavull/trace"
+  image: "publication_thumbnails/brain1.webp"
+- title: "emoji2vec: Learning emoji representations from their description"
+  authors: ["Ben Eisner", "Tim Rocktäschel", "Isabelle Augenstein", "Matko Bošnjak", "Sebastian Riedel"]
+  conference: Best Paper atEMNLP 2016 Workshop on SocialNLP
+  paper: "https://arxiv.org/abs/1609.08359"
+  code: "https://github.com/uclnlp/emoji2vec"
+  image: "publication_thumbnails/emoji.png"
