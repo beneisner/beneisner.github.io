@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben Eisner</title>
+  <meta name="title" content="Ben Eisner">
+<meta name="description" content="">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+  <style>
+    :root {
+    --width: 800px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  nav span.active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  pre code {
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  /* blog post list */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  .tags {
+    font-size: smaller;
+  }
+
+  div.vertical-spacer {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  @media (max-width: 768px) {
+    div.vertical-spacer {
+      height: 0px;
+    }
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <a href="https://beisner.me/" class="title">
+    <h1>Ben Eisner</h1>
+  </a>
+  <nav aria-label="site">
+      <a href="https://beisner.me/">home</a>
+      <a href="https://beisner.me/docs/ben_eisner_cv_2024_10_24.pdf">cv</a>
+      <a href="https://beisner.me/talks/">talks</a>
+  </nav>
+</header>
+
+
+  <!-- Add some vertical blank space, but only on desktop. -->
+  <main>
+    <div class="vertical-spacer"></div>
+    <!-- Add padding to the right of the image (but not the left) -->
+<img align="left" src="headshot.png" style="padding: 0px 20px 0px 0px">
+<p>Hello! I'm a 5th-Year Ph.D. student in the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> at Carnegie Mellon University, working with <a href="https://davheld.github.io/">Prof. David Held</a>. I work on 3D geometric reasoning for robotic manipulation. My research is supported in part by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>.</p>
+<!-- Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}). -->
+<p>Here's my <a href="https://beisner.me/ben_eisner_cv_2024_10_24.pdf">cv</a>, my <a href="https://scholar.google.com/citations?user=RWe-v0UAAAAJ&amp;hl=en">Google Scholar</a> profile, and my <a href="https://github.com/beneisner">Github</a> profile.</p>
+<p>You can reach me at <a href="mailto:ben.a.eisner@gmail.com">ben.a.eisner@gmail.com</a>.</p>
+<!-- # Publications -->
+<!-- Put a table here. First column should be 18.75% wide, second column should be 81.25% wide -->
+
+    <div class="vertical-spacer"></div>
+  </main>
+
+  <!-- <h3>Latest Blog Posts</h3>
+  <ul class="blog-posts">
+    
+      <li>
+        <span>
+          <i>
+            <time datetime="2020-01-03T00:00:00+00:00" pubdate>
+              2020-01-03
+            </time>
+          </i>
+        </span>
+        <a href="https:&#x2F;&#x2F;beisner.me&#x2F;blog&#x2F;markdown-syntax&#x2F;">Markdown Syntax Guide</a>
+      </li></ul>
+  <div class="vertical-spacer"></div>
+  -->
+  
+
+  <h3>Publications</h3>
+  <table style="border-spacing: 1em 1em;">
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;tax3d.webp" alt="Non-rigid Relative Placement through 3D Dense Diffusion" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Non-rigid Relative Placement through 3D Dense Diffusion</strong><br>
+            Eric Cai, Octavian Donca, Ben Eisner, David Held<br>
+            <em>CoRL 2024</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;openreview.net&#x2F;forum?id=rvKWXxIvj0" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;tax3d-corl-2024&#x2F;home" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;ey-cai&#x2F;non-rigid" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;flowbothd.webp" alt="FlowbotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>FlowbotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation</strong><br>
+            Yishu Li, Wen Hui Leng, Yiming Fang, Ben Eisner, David Held<br>
+            <em>CoRL 2024</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;openreview.net&#x2F;forum?id=3ZAgXBRvla" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;flowbothd.github.io&#x2F;" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;liy1shu&#x2F;FlowBotHD&#x2F;" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;taxpolicy.png" alt="Sequential Object-Centric Relative Placement Prediction for Long-horizon Imitation Learning" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Sequential Object-Centric Relative Placement Prediction for Long-horizon Imitation Learning</strong><br>
+            Ben Eisner, Eric Cai, Octavian Donca, Teeratham Vitchutripop, David Held<br>
+            <em>Workshop on Learning Effective Abstractions for Planning (LEAP) @ CoRL 2024</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;openreview.net&#x2F;forum?id=4CLiGBQV3U" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;taxpolicy-corl-2024&#x2F;home" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;r-pad&#x2F;taxpose" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;reldist.png" alt="Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks</strong><br>
+            Ben Eisner, Yi Yang, Todor Davchev, Mel Vecerik, Jonathan Scholz, David Held<br>
+            <em>International Conference on Learning Representations (ICLR) 2024</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2404.13478" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;reldist-iclr-2023" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;r-pad&#x2F;taxpose" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;cropped_fbpp.webp" alt="FlowBot++: Learning Generalized Articulated Objects Manipulation via Articulation Projection" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>FlowBot++: Learning Generalized Articulated Objects Manipulation via Articulation Projection</strong><br>
+            Harry Zhang, Ben Eisner, David Held<br>
+            <em>CoRL 2023</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2306.12893" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;flowbotpp&#x2F;home" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;harryzhangOG&#x2F;flowbotpp" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;multihead.png" alt="On Time-Indexing as Inductive Bias in Deep RL for Sequential Manipulation Tasks" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>On Time-Indexing as Inductive Bias in Deep RL for Sequential Manipulation Tasks</strong><br>
+            M. Nomaan Qureshi, Ben Eisner, David Held<br>
+            <em>Learning Meets Model-based Methods for Manipulation and Grasping Workshop @ IROS 2023</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2401.01993" target="_blank" rel="noopener noreferrer">paper</a>
+                    
+                
+                
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;taxpose.webp" alt="TAX-Pose: Task-Specific Cross-Pose Estimation for Robot Manipulation" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>TAX-Pose: Task-Specific Cross-Pose Estimation for Robot Manipulation</strong><br>
+            Chuer Pan, Brian Okorn, Harry Zhang, Ben Eisner, David Held<br>
+            <em>CoRL 2022</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;openreview.net&#x2F;forum?id=YmJi0bTfeNX" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;tax-pose&#x2F;home" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;tax-pose&#x2F;home" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;flowbot3d.webp" alt="FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects</strong><br>
+            Ben Eisner, Harry Zhang, David Held<br>
+            <em>RSS 2022, Best Paper Finalist</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2205.04382" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;articulated-flowbot-3d" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;articulated-flowbot-3d" target="_blank" rel="noopener noreferrer">code</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;youtu.be&#x2F;Vf5UgZAX15k?t=1011" target="_blank" rel="noopener noreferrer">talk</a>
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;dlds.png" alt="Deep Sequenced Linear Dynamical Systems for Manipulation Policy Learning" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Deep Sequenced Linear Dynamical Systems for Manipulation Policy Learning</strong><br>
+            M. Nomaan Qureshi, Ben Eisner, David Held<br>
+            <em>ICLR 2022 Workshop on Generalizable Policy Learning in Physical World</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2205.04382" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;deep-sequenced-lds" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;deep-sequenced-lds" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;water1.webp" alt="Self-supervised Transparent Liquid Segmentation for Robotic Pouring" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Self-supervised Transparent Liquid Segmentation for Robotic Pouring</strong><br>
+            Gautham Narasimhan, Kai Zhang, Ben Eisner, Xingyu Lin, David Held<br>
+            <em>ICRA 2022</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2203.01538" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;sites.google.com&#x2F;view&#x2F;transparentliquidpouring" target="_blank" rel="noopener noreferrer">website</a>
+                    |
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;gauthamn&#x2F;transparentliquidpouring" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;p2g.png" alt="Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction</strong><br>
+            Daniel Yang, Tarik Tosun, Ben Eisner, Volkan Isler, Daniel Lee<br>
+            <em>ICRA 2021</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2003.01649" target="_blank" rel="noopener noreferrer">paper</a>
+                    
+                
+                
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;qxplore.png" alt="Reward Prediction Error as an Exploration Objective in Deep RL" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Reward Prediction Error as an Exploration Objective in Deep RL</strong><br>
+            Riley Simmons-Edler, Ben Eisner, Daniel Yang, Anthony Bisulco, Eric Mitchell, Sebastian Seung, Daniel Lee<br>
+            <em>IJCAI 2020</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1906.08189" target="_blank" rel="noopener noreferrer">paper</a>
+                    
+                
+                
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;p2p.png" alt="Pixels to Plans: Learning Non-Prehensile Manipulation by Imitating a Planner" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Pixels to Plans: Learning Non-Prehensile Manipulation by Imitating a Planner</strong><br>
+            Tarik Tosun, Eric Mitchell, Ben Eisner, Jinwook Huh, Bhoram Lee, Daewon Lee, Volkan Isler, Sebastian Seung, Daniel Lee<br>
+            <em>IROS 2019</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1904.03260" target="_blank" rel="noopener noreferrer">paper</a>
+                    
+                
+                
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;cgp.png" alt="Q-Learning for Continuous Actions with Cross-Entropy Guided Policies" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Q-Learning for Continuous Actions with Cross-Entropy Guided Policies</strong><br>
+            Riley Simmons-Edler, Ben Eisner, Eric Mitchell, Sebastian Seung, Daniel Lee<br>
+            <em>ICML 2019 Workshop on RL4RealLife</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1903.10605" target="_blank" rel="noopener noreferrer">paper</a>
+                    
+                
+                
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;brain1.webp" alt="Deep Learning Methods for 3D Segmentation of Neural Tissue in EM Images" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>Deep Learning Methods for 3D Segmentation of Neural Tissue in EM Images</strong><br>
+            Ben Eisner, Daniel Yang, Anthony Bisulco, Eric Mitchell, Sebastian Seung, Daniel Lee<br>
+            <em>Princeton University Senior Thesis</em><br>
+                
+                    <a href="&#x2F;docs&#x2F;ben_eisner_ugrad_thesis_2017.pdf" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;tartavull&#x2F;trace" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+    <tr>
+        
+            <td style="width: 15%; min-width: 100px; vertical-align: top; padding-top: .5em;"><img src="publication_thumbnails&#x2F;emoji.png" alt="emoji2vec: Learning emoji representations from their description" style="max-width: 100%; height: auto; vertical-align: top;"></td>
+        
+        <td style="width: 85%">
+            <strong>emoji2vec: Learning emoji representations from their description</strong><br>
+            Ben Eisner, Tim Rocktäschel, Isabelle Augenstein, Matko Bošnjak, Sebastian Riedel<br>
+            <em>Best Paper atEMNLP 2016 Workshop on SocialNLP</em><br>
+                
+                    <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1609.08359" target="_blank" rel="noopener noreferrer">paper</a>
+                    |
+                
+                
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;uclnlp&#x2F;emoji2vec" target="_blank" rel="noopener noreferrer">code</a>
+                    
+                
+                
+        </td>
+    </tr>
+  
+  </table>
+
+<footer>
+    Made with <a href="https://codeberg.org/alanpearce/zola-bearblog">Zola ʕ•ᴥ•ʔ Bear</a>
+</footer>
+</body>
+</html>
