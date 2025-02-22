@@ -1,8 +1,7 @@
-To run in "livereload" mode:
-
-Make sure you have ruby `<3.2` installed, like `3.1.4`.
+Make sure [zola](getzola.org) is installed and configured correctly.
 
 ```
-
-bundle exec jekyll serve --livereload
+zola serve
 ```
+
+Eventually, when you write your blog posts, uncomment the "blog" section in the config.toml file and also in templates/index.html.
