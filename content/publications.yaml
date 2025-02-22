@@ -1,27 +1,31 @@
-- title: "Sequential Object-Centric Relative Placement Prediction for Long-horizon Imitation Learning"
-  authors: ["Ben Eisner", "Eric Cai", "Octavian Donca", "Teeratham Vitchutripop", "David Held"]
-  conference: CoRL 2023
-  website: "https://sites.google.com/view/taxpolicy-corl-2024/home"
-  paper: "https://openreview.net/forum?id=4CLiGBQV3U"
-  code: "https://github.com/r-pad/taxpose"
-- title: "FlowbotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation"
-  authors: ["Yishu Li", "Wen Hui Leng", "Yiming Fang", "Ben Eisner", "David Held"]
-  conference: Learning Effective Abstractions for Planning (LEAP) Workshop @ CoRL 2024
-  website: "https://flowbothd.github.io/"
-  paper: "https://openreview.net/forum?id=3ZAgXBRvla"
-  code: "https://github.com/liy1shu/FlowBotHD/"
 - title: "Non-rigid Relative Placement through 3D Dense Diffusion"
   authors: ["Eric Cai", "Octavian Donca", "Ben Eisner", "David Held"]
   conference: CoRL 2024
   website: "https://sites.google.com/view/tax3d-corl-2024/home"
   paper: "https://openreview.net/forum?id=rvKWXxIvj0"
   code: "https://github.com/ey-cai/non-rigid"
+  image: "publication_thumbnails/tax3d.webp"
+- title: "FlowbotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects Manipulation"
+  authors: ["Yishu Li", "Wen Hui Leng", "Yiming Fang", "Ben Eisner", "David Held"]
+  conference: CoRL 2024
+  website: "https://flowbothd.github.io/"
+  paper: "https://openreview.net/forum?id=3ZAgXBRvla"
+  code: "https://github.com/liy1shu/FlowBotHD/"
+  image: "publication_thumbnails/flowbothd.webp"
+- title: "Sequential Object-Centric Relative Placement Prediction for Long-horizon Imitation Learning"
+  authors: ["Ben Eisner", "Eric Cai", "Octavian Donca", "Teeratham Vitchutripop", "David Held"]
+  conference: Workshop on Learning Effective Abstractions for Planning (LEAP) @ CoRL 2024
+  website: "https://sites.google.com/view/taxpolicy-corl-2024/home"
+  paper: "https://openreview.net/forum?id=4CLiGBQV3U"
+  code: "https://github.com/r-pad/taxpose"
+  image: "publication_thumbnails/taxpolicy.png"
 - title: "Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks"
   authors: ["Ben Eisner", "Yi Yang", "Todor Davchev", "Mel Vecerik", "Jonathan Scholz", "David Held"]
   conference: International Conference on Learning Representations (ICLR) 2024
   website: "https://sites.google.com/view/reldist-iclr-2023"
   paper: "https://arxiv.org/abs/2404.13478"
   code: "https://github.com/r-pad/taxpose"
+  image: "publication_thumbnails/reldist.png"
 - title: "FlowBot++: Learning Generalized Articulated Objects Manipulation via Articulation Projection"
   authors: ["Harry Zhang", "Ben Eisner", "David Held"]
   conference: CoRL 2023
@@ -48,6 +52,7 @@
   paper: "https://arxiv.org/abs/2205.04382"
   code: "https://sites.google.com/view/articulated-flowbot-3d"
   image: "publication_thumbnails/flowbot3d.webp"
+  talk: "https://youtu.be/Vf5UgZAX15k?t=1011"
 - title: "Deep Sequenced Linear Dynamical Systems for Manipulation Policy Learning"
   authors: ["M. Nomaan Qureshi", "Ben Eisner", "David Held"]
   conference: ICLR 2022 Workshop on Generalizable Policy Learning in Physical World
@@ -87,6 +92,7 @@
   conference: Princeton University Senior Thesis
   code: "https://github.com/tartavull/trace"
   image: "publication_thumbnails/brain1.webp"
+  paper: "/docs/ben_eisner_ugrad_thesis_2017.pdf"
 - title: "emoji2vec: Learning emoji representations from their description"
   authors: ["Ben Eisner", "Tim Rocktäschel", "Isabelle Augenstein", "Matko Bošnjak", "Sebastian Riedel"]
   conference: Best Paper atEMNLP 2016 Workshop on SocialNLP

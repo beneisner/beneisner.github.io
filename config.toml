@@ -54,11 +54,13 @@ url = "@/_index.md"
 # url = "@/bear.md"
 
 # [[extra.main_menu]]
-# name = "Zola"
-# name_de = "Zola"
-# url = "@/zola.md"
+# name = "blog"
+# url = "@/blog/_index.md"
 
 [[extra.main_menu]]
-name = "blog"
-name_de = "blog"
-url = "@/blog/_index.md"
+name = "cv"
+url = "docs/ben_eisner_cv_2024_10_24.pdf"
+
+[[extra.main_menu]]
+name = "talks"
+url = "@/talks/_index.md"

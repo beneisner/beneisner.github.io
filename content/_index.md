@@ -8,7 +8,7 @@ Hello! I'm a 5th-Year Ph.D. student in the [Robotics Institute](https://www.ri.c
 
 <!-- Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}). -->
 
-Here is a recent version of my [academic cv](ben_eisner_cv_2024_10_24.pdf), my [Google Scholar](https://scholar.google.com/citations?user=RWe-v0UAAAAJ&hl=en) profile, and my [Github](https://github.com/beneisner) profile.
+Here's my [cv](ben_eisner_cv_2024_10_24.pdf), my [Google Scholar](https://scholar.google.com/citations?user=RWe-v0UAAAAJ&hl=en) profile, and my [Github](https://github.com/beneisner) profile.
 
 You can reach me at [ben.a.eisner@gmail.com](mailto:ben.a.eisner@gmail.com).
 
