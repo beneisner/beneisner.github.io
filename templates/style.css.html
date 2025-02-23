@@ -1,9 +1,10 @@
   :root {
     --width: 800px;
-    --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
+    <!-- --font-main: Verdana, sans-serif; -->
+    --font-main: "Inter", "IBM Plex Sans", "Source Sans Pro", sans-serif;
+    --font-secondary: "Inter", "IBM Plex Sans", "Source Sans Pro", sans-serif;
     --font-scale: 1em;
-    --background-color: #fff;
+    --background-color: #fcfcfc;
     --heading-color: #222;
     --text-color: #444;
     --link-color: #3273dc;
@@ -36,7 +37,9 @@
     background-color: var(--background-color);
     word-wrap: break-word;
     overflow-wrap: break-word;
-    line-height: 1.5;
+    <!-- line-height: 1.5; -->
+    line-height: 1.65;
+    letter-spacing: 0.02em;
     color: var(--text-color);
   }
 
@@ -62,6 +65,7 @@
 
   nav a {
     margin-right: 8px;
+
   }
 
   nav span.active {
