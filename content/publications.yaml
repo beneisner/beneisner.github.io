@@ -1,3 +1,17 @@
+- title: "Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement"
+  authors: ["Kallol Saha*", "Amber Li*", "Ángela Rodriguez-Izquierdo", "Lifan Yu", "Ben Eisner", "Maxim Likhachev","David Held"]
+  conference: CoRL 2025 (Oral - 5.7% acceptance rate)
+  website: "planning-from-point-clouds.github.io"
+  paper: "https://openreview.net/forum?id=XF69ltYlMU"
+  # code: "https://github.com/liy1shu/HAVE_CoRL25"
+  image: "publication_thumbnails/vtamp.webp"
+- title: "Learn from What We HAVE: History-Aware VErifier that Reasons about Past Interactions Online"
+  authors: ["Yishu Li", "Xinyi Mao", "Ying Yuan", "Kyutae Sim", "Ben Eisner", "David Held"]
+  conference: CoRL 2025
+  website: "https://anonymousperson12321.github.io/HAVE/"
+  paper: "https://openreview.net/forum?id=iWMM4oxMBu"
+  code: "https://github.com/liy1shu/HAVE_CoRL25"
+  image: "publication_thumbnails/have.webp"
 - title: "Non-rigid Relative Placement through 3D Dense Diffusion"
   authors: ["Eric Cai", "Octavian Donca", "Ben Eisner", "David Held"]
   conference: CoRL 2024

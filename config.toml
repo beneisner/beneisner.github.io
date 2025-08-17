@@ -59,7 +59,7 @@ url = "@/_index.md"
 
 [[extra.main_menu]]
 name = "cv"
-url = "docs/ben_eisner_cv_2024_10_24.pdf"
+url = "docs/cv.pdf"
 
 [[extra.main_menu]]
 name = "talks"
