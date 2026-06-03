@@ -8,7 +8,7 @@
 - title: "Learn from What We HAVE: History-Aware VErifier that Reasons about Past Interactions Online"
   authors: ["Yishu Li", "Xinyi Mao", "Ying Yuan", "Kyutae Sim", "Ben Eisner", "David Held"]
   conference: CoRL 2025
-  website: "https://anonymousperson12321.github.io/HAVE/"
+  website: "https://liy1shu.github.io/HAVE_CoRL25/"
   paper: "https://openreview.net/forum?id=iWMM4oxMBu"
   code: "https://github.com/liy1shu/HAVE_CoRL25"
   image: "publication_thumbnails/have.webp"
