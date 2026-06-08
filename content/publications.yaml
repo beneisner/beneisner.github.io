@@ -4,7 +4,7 @@
   website: "https://ghost-human-demo.github.io/"
   paper: "https://roboticsconference.org/program/papers/55/"
   code: "https://github.com/r-pad/lfd3d"
-  image: "publication_thumbnails/ghost.png"
+  image: "publication_thumbnails/ghost.gif"
 - title: "Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement"
   authors: ["Kallol Saha*", "Amber Li*", "Ángela Rodriguez-Izquierdo", "Lifan Yu", "Ben Eisner", "Maxim Likhachev","David Held"]
   conference: CoRL 2025 (Oral - 5.7% acceptance rate)
