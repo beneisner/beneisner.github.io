@@ -4,7 +4,9 @@
 <!-- Add padding to the right of the image (but not the left) -->
 <img align="left" src="headshot.png" style="padding: 0px 20px 0px 0px">
 
-Hello! I'm a 5th-Year Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, working with [Prof. David Held](https://davheld.github.io/). I work on 3D geometric reasoning for robotic manipulation. My research is supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+Hello! I'm the Co-Founder and CTO of [Index Robotics](https://indexrobots.ai).
+
+I earned my Ph.D. in 2025 from the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, where I worked with [Prof. David Held](https://davheld.github.io/) on 3D geometric reasoning for robotic manipulation. My research was supported in part by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 <!-- Here a recent version of my [resume]({{site.resume_path}}) and my [academic cv]({{site.cv_path}}). -->
 
